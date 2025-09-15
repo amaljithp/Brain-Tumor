@@ -7,7 +7,7 @@ The model was trained, evaluated, and deployed (AWS EC2), demonstrating its pote
 
 ## 📌 Project Overview
 - **Objective**: Develop a deep learning model to classify brain tumors from MRI scans.  
-- **Dataset**: Publicly available MRI brain tumor dataset.  
+- **Dataset**: Can collect the MRI images from Kaggle (multiple files).  
 - **Classes**:
   - Glioma  
   - Meningioma  
@@ -36,54 +36,24 @@ The model was trained, evaluated, and deployed (AWS EC2), demonstrating its pote
 
 ---
 
-## 📂 Project Structure
-
-
-
-
----
-
-## 🚀 How to Run the Project
-
-### 🔹 1. Clone the repository
-```bash
-git clone https://github.com/your-username/brain-tumor-classification.git
-cd brain-tumor-classification
-
-
-
-
-🔹 2. Install dependencies
-pip install -r requirements.txt
-
-
-🔹 3. Train the Model
-jupyter notebook Brain_Tumor_Classification.ipynb
-
-
-🔹 4. Run the Flask App (Deployment)
-python app.py
-
-Then open http://127.0.0.1:5000/ in your browser
-
-📊 Results
+## 📊 Results
 Training Accuracy vs Validation Accuracy
 Model achieved ~97% accuracy after 14 epochs.
 Loss decreased steadily, showing good generalization.
 
-📚 Future Work
+## 📚 Future Work
 Improve performance using Transfer Learning (ResNet, VGG16).
 Deploy model on Streamlit or FastAPI for an interactive demo.
 Integrate Grad-CAM for model explainability.
 Host dataset preprocessing and model training in Google Colab/Kaggle for reproducibility.
 
-🙌 Acknowledgments
+## 🙌 Acknowledgments
 Dataset contributors
 TensorFlow & Keras documentation
 AWS EC2 free tier (deployment)
 
 
-# 📧  Contact
+## 📧  Contact
 
 👤 Amaljith P
 📩 syamaism@gmail.com
